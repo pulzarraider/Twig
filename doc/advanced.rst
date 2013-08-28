@@ -51,9 +51,9 @@ three main reasons:
 * The tag outputs something;
 * The tag is not flexible as you cannot use it in an expression:
 
-  .. code-block:: jinja
+.. code-block:: jinja
 
-      {{ 'some text' ~ {% lipsum 40 %} ~ 'some more text' }}
+    {{ 'some text' ~ {% lipsum 40 %} ~ 'some more text' }}
 
 In fact, you rarely need to create tags; and that's good news because tags are
 the most complex extension point of Twig.
